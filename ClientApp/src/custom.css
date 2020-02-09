@@ -1,0 +1,39 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+code {
+    color: #E01A76;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+
+
+.homeDiv {
+    color: black;
+    margin-top: 55px;
+    background: rgba(238,238,238,.8);
+    padding: 15px 0;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,.8) 7px 7px;
+}
+
+.homeDiv h1 {
+    text-align: center;
+}
+
+.homeDiv ul {
+    display: table;
+    margin: 0 auto;
+}
+
+body {
+    background: #F5F5F5;
+    overflow-y: scroll;
+}

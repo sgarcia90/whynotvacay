@@ -1,0 +1,89 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.header-position {
+    margin-top: 20px;
+}
+
+.logoFont-emily {
+    font-family: 'Emilys Candy', cursive;
+    font-size: 68px;
+    color: #F5F5F5;
+    line-height: 58px;
+    background: #3BA7BF;
+    padding: 30px 18px 30px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.logoFont-berkshire {
+    font-family: 'Emilys Candy', cursive;
+    font-size: 48px;
+    color: #F5F5F5 !important;
+    font-weight: 800;
+    position: relative;
+    line-height: 40px;
+    padding: 0;
+    position: relative;
+    bottom: 0px;
+    left: -12px;
+}
+
+.logo-margin {
+    margin-left: 8%;
+}
+
+.banner-background {
+    background: url(../img/ferry_dock.png);
+    background-size: cover;
+    background-position-y: 820px;
+    height: 400px;
+    width: 100%;
+    border-top: 55px solid #024873;
+    border-top: 55px solid transparent;
+    border-image: linear-gradient(300deg, rgba(2,72,115,1) 0%, rgba(4,119,191,1) 100%);
+    border-image-slice: 1;
+    position: relative;
+    margin-top: -86.5px;
+}
+
+.nav-position {
+    position: absolute;
+    bottom: 0;
+    left: auto;
+}
+
+.bottomBorder {
+    background: linear-gradient(240deg, rgba(2,72,115,1) 0%, rgba(4,119,191,1) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 55px;
+    width: 100%;
+}
+
+.link-height {
+    line-height: 23px;
+}
+
+.nav-button-css {
+    font-size: 20px;
+    padding: 0 20px;
+}
